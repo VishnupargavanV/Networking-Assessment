@@ -1,0 +1,9 @@
+Qn 4:
+
+192.168.10.5 → Class C, Private
+
+172.20.15.1 → Class B, Private
+
+8.8.8.8 → Class A, Public
+
+NAT converts private IP addresses into public IP addresses to enable internet communication.
