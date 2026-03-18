@@ -1,0 +1,30 @@
+Initially, ARP request is broadcast by Victim1 asking for the MAC address of Victim2.
+Victim2 replies with its MAC address, establishing normal communication.
+
+During ARP spoofing, the attacker sends fake ARP replies claiming to be Victim2.
+This causes Victim1 to update its ARP table with the attacker’s MAC address.
+
+As a result, traffic is redirected through the attacker, enabling interception or manipulation.
+
+Task 5:
+
+The network 192.168.1.0/24 was divided into 4 subnets using /26 mask.
+Each subnet has 62 usable IP addresses.
+Devices in different subnets cannot communicate without a router.
+
+Task 6:
+IP addresses are classified into Class A, B, and C based on the first octet.
+Class A ranges from 1 to 126 with default mask 255.0.0.0.
+Class B ranges from 128 to 191 with default mask 255.255.0.0.
+Class C ranges from 192 to 223 with default mask 255.255.255.0.
+
+For the given IPs:
+10.1.1.1 belongs to Class A,
+172.16.5.10 belongs to Class B,
+192.168.1.5 belongs to Class C.
+
+Task 7:
+The PCs are connected to the switch using FastEthernet interfaces with straight-through cables.
+The switch is connected to the router using FastEthernet0/0.
+The router is connected to the cloud using FastEthernet1/0.
+Serial and console ports are not used in this setup.
